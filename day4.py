@@ -18,3 +18,6 @@ print("Is 10 less than 3? ", num1 < num2)
 print("Is 10 greater than or equal to 3? ", num1 >= num2)
 print("Is 10 less than or equal to 3? ", num1 <= num2)
 
+true_value = True
+false_value = False
+

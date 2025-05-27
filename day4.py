@@ -30,4 +30,3 @@ print("True OR True: ", true_value or true_value)
 print("False OR False: ", false_value or false_value)
 print("NOT True: ", not true_value)
 print("NOT False: ", not false_value)
-

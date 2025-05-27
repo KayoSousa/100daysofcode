@@ -1,3 +1,3 @@
-##day1 - hello, word!
+## day1 - hello, word!
 
 print("Hello, Word!")

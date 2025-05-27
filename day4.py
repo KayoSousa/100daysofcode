@@ -2,7 +2,7 @@
 
 num1 = 10
 num2 = 3
-print("\n--- Arithmwtic Operations ---")
+print("\n--- Arithimetic Operations ---")
 print("Addition (10+3):", num1 + num2)
 print("Subtraction (10-3):", num1 - num2)
 print("Multiplication (10*3):", num1 * num2)

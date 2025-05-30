@@ -28,3 +28,21 @@ def calculate_area(length, breadth):
 area = calculate_area(5, 3)
 print(f"The area of the retangle is {area}.")
 print()
+
+#####     Variable Scope      #####
+
+# Program 4: Program to understand the difference between local and global variable
+global_var = 10
+print(f"Global variable berofe function call: {global_var}")
+
+def modify_variable():
+    global_var = 20 # Update the variable
+    print(f"Update Global variable inside function: {global_var}")
+
+modify_variable() # Call the function
+print(f"Global variable after function call: {global_var}")
+
+def modify_global_variable():
+    global global_var # Declare that we want to use the global variable
+    global_var = 20 # Update the global variable
+    

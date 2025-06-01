@@ -33,7 +33,7 @@ print()
 
 # Program 4: Program to understand the difference between local and global variable
 global_var = 10
-print(f"Global variable berofe function call: {global_var}")
+print(f"Global variable before function call: {global_var}")
 
 def modify_variable():
     global_var = 20 # Update the variable

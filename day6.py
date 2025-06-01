@@ -50,4 +50,4 @@ def modify_global_variable():
 modify_global_variable() # Call the function
 print(f"Global variable after function call: {global_var}")
 
-print("n\Congratulations on completing Day 6 of Python Code challenge!\n")
+print("\nCongratulations on completing Day 6 of Python Code challenge!\n")

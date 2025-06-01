@@ -45,4 +45,9 @@ print(f"Global variable after function call: {global_var}")
 def modify_global_variable():
     global global_var # Declare that we want to use the global variable
     global_var = 20 # Update the global variable
-    
+    print(f"Update global variable inside function: {global_var}")
+
+modify_global_variable() # Call the function
+print(f"Global variable after function call: {global_var}")
+
+print("n\Congratulations on completing Day 6 of Python Code challenge!\n")

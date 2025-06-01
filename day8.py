@@ -1,7 +1,7 @@
 ## day8 - Sets and Dictionary
 
 #####     Sets     #####
-    #Sets are unordered collections of unique elements.
+    # Sets are unordered collections of unique elements.
     # They are useful when you want to eliminate duplicates and perform common set operations like union,
     # intersection, and difference. Since sets are unordered, items do not have a fixed position and
     # cannot be accessed using an index.

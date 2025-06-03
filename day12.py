@@ -2,7 +2,17 @@
 
 # 1. write a program to check if a number is even or odd.
 
-number = int(input(f"Enter an number interer: "))
+while True:
+    try:
+        number_str = input(f"Enter an number interer: ")
+        number = int(number_str)
+
+        break
+
+    except ValueError:
+        print(f"Error: '{number_str}' is not a valid integer. Please, enter only numbers.")
+        print("The Program could not verify the type of the number.")
+
 if number % 2 == 0:
     print(f"The number {number} is even.")
 else:

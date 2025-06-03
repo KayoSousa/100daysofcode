@@ -3,7 +3,7 @@
 #####     If-else Statements      #####
 
 # Program 1: Check if number is evenn/odd
-number = int(input("Enter an interer: "))
+number = int(input("Enter an number interer: "))
 if number % 2 == 0:
     print(f"{number} is even")
 else:

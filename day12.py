@@ -11,7 +11,7 @@ while True:
 
     except ValueError:
         print(f"Error: '{number_str}' is not a valid integer. Please, enter only numbers.")
-        print("The Program could not verify the type of the number.")
+        print("The Program could not verify the type of the number or text.")
 
 if number % 2 == 0:
     print(f"The number {number} is even.")

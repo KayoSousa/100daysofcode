@@ -8,5 +8,5 @@ while True:
         year = int(year_str)
         break
     except ValueError:
-        print(f"Error: '{year_str}' not is a year valid. Please, enter only whole numbers.)
-              
+        print(f"Error: not is a year valid. Please, enter only whole numbers.")
+        print("Try again.")      

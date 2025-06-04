@@ -9,4 +9,7 @@ while True:
         break
     except ValueError:
         print(f"Error: not is a year valid. Please, enter only whole numbers.")
-        print("Try again.")      
+        print("Try again.")
+
+if year % 4 == 0:
+         

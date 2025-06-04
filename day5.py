@@ -24,7 +24,7 @@ else:
 
 # Program 3: using nested if-else, find the largest os three numbers
 num1 = int(input("\nEnter the first number: "))
-num2 = int(input("Enter the secong number: "))
+num2 = int(input("Enter the second number: "))
 num3 = int(input("Enter three number: "))
 
 if num1 >= num2:

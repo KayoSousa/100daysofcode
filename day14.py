@@ -12,4 +12,13 @@ while True:
         print("Try again.")
 
 if year % 4 == 0:
-         if
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print(f" The year {year} is leap year.")
+        else:
+            print(f"The year {year} not is leap year.")
+    else:
+        print(f" The year {year} is leap year.")
+else:
+    print(f"The year {year} not is leap year.")
+print("verification completed.")

@@ -2,7 +2,7 @@
 
 # 1. write a function to calculate the factorial of a number.
 
-number = int(input("\nEntrer a number to calculate its factorial: "))
+number = int(input("\nEnter a number to calculate its factorial: "))
 factorial = 1
 
 while number > 1:

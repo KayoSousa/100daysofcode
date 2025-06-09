@@ -60,3 +60,4 @@ while True:
     print("-" * 30) # Linha divisória para clareza
 
 print("Programa encerrado. Até mais!")
+
